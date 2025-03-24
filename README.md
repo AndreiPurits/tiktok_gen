@@ -12,11 +12,7 @@ This Python script automates the creation of TikTok-style clips from YouTube vid
 
 ## 📂 Folder Structure
 
-project-root/ │ 
-              ├── backgrounds/ # Add short looping background videos here (e.g., slime, ASMR, paint mixing) 
-              ├── music/ # Add royalty-free background .mp3 music here 
-              ├── main.py # Main script 
-              └── output_0.mp4 # Example result file
+pre> <code> project-root/ │ ├── backgrounds/ # Add short looping background videos here (e.g., slime, ASMR, paint mixing) ├── music/ # Add royalty-free background .mp3 music here ├── main.py # Main script └── output_0.mp4 # Example result file </code> </pre>
 
 ## 🔧 Requirements
 
