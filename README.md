@@ -12,7 +12,11 @@ This Python script automates the creation of TikTok-style clips from YouTube vid
 
 ## 📂 Folder Structure
 
-project-root/ │ ├── backgrounds/ # Add short looping background videos here (e.g., slime, ASMR, paint mixing) ├── music/ # Add royalty-free background .mp3 music here ├── main.py # Main script └── output_0.mp4 # Example result file
+project-root/ │ 
+              ├── backgrounds/ # Add short looping background videos here (e.g., slime, ASMR, paint mixing) 
+              ├── music/ # Add royalty-free background .mp3 music here 
+              ├── main.py # Main script 
+              └── output_0.mp4 # Example result file
 
 ## 🔧 Requirements
 
@@ -28,13 +32,13 @@ project-root/ │ ├── backgrounds/ # Add short looping background videos h
 
 ## The script will:
 
-Download the video from VIDEO_URL
-Cut several short clips (15–35s each)
-Transcribe audio using Whisper
-Add subtitles + background visuals/music
-Save the result as output_0.mp4, output_1.mp4, etc.
+- Download the video from VIDEO_URL
+- Cut several short clips (15–35s each)
+- Transcribe audio using Whisper
+- Add subtitles + background visuals/music
+- Save the result as output_0.mp4, output_1.mp4, etc.
 
 ## Notes
--Subtitles require ImageMagick installed and configured
--Place your background .mp4 and music .mp3 in the respective folders
--Whisper transcription can be slow depending on model size and hardware 
+- Subtitles require ImageMagick installed and configured
+- Place your background .mp4 and music .mp3 in the respective folders
+- Whisper transcription can be slow depending on model size and hardware 
