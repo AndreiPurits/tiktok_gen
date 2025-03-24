@@ -21,27 +21,20 @@ project-root/ │ ├── backgrounds/ # Add short looping background videos h
 - ffmpeg installed and accessible in your PATH
 
 ### Python packages
-moviepy
-yt-dlp
-openai-whisper
+-moviepy
+-yt-dlp
+-openai-whisper
 
 
-
-The script will:
+## The script will:
 
 Download the video from VIDEO_URL
-
 Cut several short clips (15–35s each)
-
 Transcribe audio using Whisper
-
 Add subtitles + background visuals/music
-
 Save the result as output_0.mp4, output_1.mp4, etc.
 
-⚠️ Notes
-Subtitles require ImageMagick installed and configured
-
-Place your background .mp4 and music .mp3 in the respective folders
-
-Whisper transcription can be slow depending on model size and hardware 
+##⚠️ Notes
+-Subtitles require ImageMagick installed and configured
+-Place your background .mp4 and music .mp3 in the respective folders
+-Whisper transcription can be slow depending on model size and hardware 
